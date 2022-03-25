@@ -54,7 +54,7 @@ main {
     border-radius: 20px;
     width: auto;
     max-width: max-content;
-    margin-top: 1rem;
+    margin: 2rem 0;
 }
 
 #game:before {
@@ -76,8 +76,8 @@ main {
     outline: 1px solid rgba(73, 110, 158, 0.1);
     width: 15vw;
     height: 15vw;
-    max-width: 100px;
-    max-height: 100px;
+    max-width: calc(100vh / 13);
+    max-height: calc(100vh / 13);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -114,6 +114,7 @@ header {
 h1 {
     text-align: center;
     line-height: 1;
+    margin: 0;
 }
 
 #logo {
