@@ -2,7 +2,7 @@ import Tile from "./Tile";
 import { allWords, theWords } from "./words";
 
 export default {
-    guessesAllowed: 3,
+    guessesAllowed: 5,
     theWord: theWords[Math.floor(Math.random() * theWords.length)],
     currentRowIndex: 0,
     state: "active",
@@ -91,7 +91,6 @@ export default {
             this.message = `Game Over. You Lose. (${this.theWord})`;
         } else {
             this.currentRowIndex++;
-            this.message = "Incorrect";
         }
     },
 

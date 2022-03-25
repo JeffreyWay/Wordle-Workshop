@@ -1,4 +1,25 @@
-export let theWords = ["cat", "dog", "kid", "mom", "dad", "big", "hat"];
+export let theWords = [
+    "cat",
+    "dog",
+    "kid",
+    "mom",
+    "dad",
+    "big",
+    "hat",
+    "pig",
+    "boy",
+    "yay",
+    "can",
+    "arm",
+    "ran",
+    "run",
+    "sun",
+    "fun",
+    "hit",
+    "sit",
+    "sad",
+    "hot",
+];
 
 export let allWords = [
     "AAH",

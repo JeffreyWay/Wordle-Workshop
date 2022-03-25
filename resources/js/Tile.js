@@ -19,11 +19,11 @@ export default class Tile {
         }
 
         // check for present letters...
-        for (let tile of row) {
+        for (let tile of row.filter((tile) => !tile.status)) {
             if (theWord.includes(tile.letter)) {
                 tile.status = "present";
 
-                theWord[theWord.indexOf(tile.letter)] = null;
+                theWord[tile.position] = null;
             }
         }
 
