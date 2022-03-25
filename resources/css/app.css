@@ -10,7 +10,7 @@ html {
 
 @media (min-width: 900px) {
     html {
-        font-size: 20px;
+        font-size: 19px;
     }
 }
 
@@ -116,6 +116,10 @@ main {
 .tile.present {
     color: var(--present-color);
     text-shadow: 0 0 12px rgba(246, 171, 38, 0.42);
+}
+
+.tile.absent {
+    color: #2f4e77;
 }
 
 
