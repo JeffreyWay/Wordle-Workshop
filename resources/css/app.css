@@ -176,6 +176,10 @@ output:empty {
     background: var(--absent-color);
 }
 
+.key.correct {
+    background: var(--correct-color);
+}
+
 .key.present {
     background: var(--present-color);
 }

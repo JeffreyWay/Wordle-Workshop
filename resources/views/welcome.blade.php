@@ -13,6 +13,7 @@
 
     <link rel="stylesheet" href="{{ mix('css/app.css') }}'">
 
+    <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.5.1/dist/confetti.browser.min.js"></script>
     <script src="//unpkg.com/alpinejs" defer></script>
     <script src="{{ mix('js/app.js') }}"></script>
 </head>

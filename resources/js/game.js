@@ -86,6 +86,8 @@ export default {
         if (this.currentGuess === this.theWord) {
             this.state = "complete";
             this.message = "You Win!";
+
+            confetti();
         } else if (this.remainingGuesses === 0) {
             this.state = "complete";
             this.message = `Game Over. You Lose. (${this.theWord})`;
