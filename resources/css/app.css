@@ -195,6 +195,7 @@ output:empty {
 
 .key.correct {
     background: var(--correct-color);
+    color: white;
 }
 
 .key.present {
