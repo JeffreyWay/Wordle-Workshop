@@ -3,7 +3,6 @@ export let theWords = [
     "dog",
     "kid",
     "mom",
-    "dad",
     "big",
     "hat",
     "pig",
@@ -26,6 +25,7 @@ export let theWords = [
     "pot",
     "cut",
     "bad",
+    "try",
 ];
 
 export let allWords = [
