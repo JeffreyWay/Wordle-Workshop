@@ -18,7 +18,7 @@
     <script src="{{ mix('js/app.js') }}"></script>
 </head>
 
-<body>
+<body style="touch-action: pan-y">
     <main x-data="game"
           @keyup.window="onKeyPress($event.key)"
     >
