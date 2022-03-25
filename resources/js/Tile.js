@@ -23,7 +23,7 @@ export default class Tile {
             if (theWord.includes(tile.letter)) {
                 tile.status = "present";
 
-                theWord[tile.position] = null;
+                theWord[theWord.indexOf(tile.letter)] = null;
             }
         }
 
