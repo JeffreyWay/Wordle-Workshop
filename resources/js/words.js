@@ -19,6 +19,13 @@ export let theWords = [
     "sit",
     "sad",
     "hot",
+    "far",
+    "mad",
+    "lip",
+    "mud",
+    "pot",
+    "cut",
+    "bad",
 ];
 
 export let allWords = [
