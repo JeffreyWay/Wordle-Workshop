@@ -25,7 +25,9 @@
         <div id="game-wrap">
             <header>
                 <h1 aria-label="TryCat">
-                    <img id="logo" src="/images/trycat-logo.svg" alt="Cat with glasses and curly tail above the text TryCat.">
+                    <a href="/">
+                        <img id="logo" src="/images/trycat-logo.svg" alt="Cat with glasses and curly tail above the text TryCat.">
+                    </a>
                 </h1>
 
                 <output x-text="message"></output>
