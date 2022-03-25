@@ -27,12 +27,6 @@ body {
     font-family: Poppins, sans-serif;
 }
 
-
-h1 {
-    text-align: center;
-    line-height: 1;
-}
-
 main {
     display: flex;
     flex-direction: column;
@@ -40,15 +34,10 @@ main {
     overflow: auto;
 }
 
-#logo {
-    width: 100px;
-}
 
-@media (min-width: 900px) {
-    #logo {
-        width: 150px;
-    }
-}
+/**
+ * Game Board Styles
+ */
 
 #game-wrap {
     flex: 1;
@@ -57,7 +46,6 @@ main {
     align-items: center;
     margin: 0 auto;
 }
-
 
 #game {
     color: white;
@@ -109,27 +97,33 @@ main {
     text-shadow: 0 0 12px rgba(38, 246, 110, 0.42);
 }
 
-.key.correct {
-    background: var(--correct-color);
-    color: white;
-}
-
 .tile.present {
     color: var(--present-color);
     text-shadow: 0 0 12px rgba(246, 171, 38, 0.42);
 }
 
-.key.present {
-    background: var(--present-color);
-}
 
-.key.absent {
-    background: var(--absent-color);
-    color: white;
-}
+/**
+ * Header Styles
+ */
 
 header {
     position: relative;
+}
+
+h1 {
+    text-align: center;
+    line-height: 1;
+}
+
+#logo {
+    width: 100px;
+}
+
+@media (min-width: 900px) {
+    #logo {
+        width: 150px;
+    }
 }
 
 output {
@@ -148,6 +142,11 @@ output:empty {
     display: none;
     color: #496e9e;
 }
+
+
+/**
+ * Keyboard Styles
+ */
 
 #keyboard {
     width: 94vw;
@@ -175,4 +174,13 @@ output:empty {
 
 .key:active {
     background: var(--absent-color);
+}
+
+.key.present {
+    background: var(--present-color);
+}
+
+.key.absent {
+    background: var(--absent-color);
+    color: white;
 }
