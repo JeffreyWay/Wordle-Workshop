@@ -73,7 +73,7 @@ main {
 }
 
 .tile {
-    outline: 1px solid rgba(73, 110, 158, 0.1);
+    outline: 1px solid rgba(73, 110, 158, .1);
     width: 15vw;
     height: 15vw;
     max-width: calc(100vh / 13);
@@ -85,6 +85,22 @@ main {
     font-weight: 600;
     text-transform: uppercase;
     color: #496e9e;
+}
+
+.row:first-of-type .tile:first-of-type {
+    border-top-left-radius: 20px;
+}
+
+.row:first-of-type .tile:last-of-type {
+    border-top-right-radius: 20px;
+}
+
+.row:last-of-type .tile:first-of-type {
+    border-bottom-left-radius: 20px;
+}
+
+.row:last-of-type .tile:last-of-type {
+    border-bottom-right-radius: 20px;
 }
 
 .row.invalid .tile, .tile.invalid {
