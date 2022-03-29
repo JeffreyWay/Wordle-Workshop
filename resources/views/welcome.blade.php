@@ -11,7 +11,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap" rel="stylesheet">
 
-    <link rel="stylesheet" href="{{ mix('css/app.css') }}'">
+    <link rel="stylesheet" href="{{ mix('css/app.css') }}">
 
     <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.5.1/dist/confetti.browser.min.js"></script>
     <script src="//unpkg.com/alpinejs" defer></script>
